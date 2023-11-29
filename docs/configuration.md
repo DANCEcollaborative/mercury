@@ -13,7 +13,7 @@ The `Mercury` can be configured with environment variables. There are several wa
 - `DJANGO_SUPERUSER_USERNAME` - (string) admin username, used to login to [Admin Panel](/admin-panel). Example `DJANGO_SUPERUSER_USERNAME=piotr`
 - `DJANGO_SUPERUSER_PASSWORD` - (string) admin password, used to login to [Admin Panel](/admin-panel). Example `DJANGO_SUPERUSER_PASSWORD=secret-one`.
 - `DJANGO_SUPERUSER_EMAIL` - (string) admin email. Example `DJANGO_SUPERUSER_EMAIL=piotr@example.com`.
-- `SECRET_KEY` - (string) Django secret key. Example `SECRET_KEY="x3%q8fs(-q3i(m&=e1g%9xtvcn*q!c%i@v0*ha4@ow2crdktpw"`
+- `SECRET_KEY` - (string) Django secret key. Example `SECRET_KEY="xxx"`
 - `ALLOWED_HOSTS` - (string, list of string comma separated) a list of allowed hosts to make API calls to the server. Example `ALLOWED_HOSTS=mljar.com,12.10.12.30,mercury.mljar.com`.
 - `WELCOME` - (string) - file path with custom welcome message (see [docs](/welcome)). Example `WELCOME=/path/to/file/welcome.md`.
 - `EMAIL_HOST` - (string) string with email SMTP server address - it is used for email notifications when execute scheduled notebooks (see [docs](/schedule)). Example `EMAIL_HOST=smtp.gmail.com`.

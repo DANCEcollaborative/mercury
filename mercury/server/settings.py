@@ -41,7 +41,7 @@ CELERY_RESULT_BACKEND = os.environ.get("CELERY_RESULT_BACKEND", f"db+sqlite:///{
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get(
-    "SECRET_KEY", "django-insecure-)$12ir6-s6vbcufpva*va7bf$s$$(76ue$twwz9noath0&e91h"
+    "SECRET_KEY", "django-insecure-xxx"
 )
 # Please keep SECRET_KEY secret!
 # Generate new SECRET_KEY with the following code:
